@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+     <!-- jQuery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+     <!-- Popper JS -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+     <!-- Latest compiled JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+     <!--ICONOS FONTAWESOME-->
+     <script src="https://kit.fontawesome.com/9d581b152e.js" crossorigin="anonymous"></script>
+     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Inicio sesión</title>
+</head>
+<body class="bg-secondary">
+    <div class="container p-2">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">   
+            <a class="navbar-brand text-white">
+                <img src="img/loro.png" height="50px" alt="">
+            </a>
+            <h1 class="nav-link text-white">Jacobe TheBug</h1>
+            <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon">  </span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <li class="nav-link  active">
+                    <a href="index.html" class="nav-link text-white"><b>Inicio</b></a>
+                </li>
+                <li class="nav-link">
+                    <a href="login.html" class="nav-link text-white"><b>Iniciar Sesión</b></a>
+                </li>
+                <li class="nav-link">
+                    <a href="registrar.html" class="nav-link text-white"><b>Registrarse</b></a>
+                </li>
+                <li class="nav-link">
+                    <a href="tablas.html" class="nav-link text-white"><b>Tabla de registros</b></a>
+                </li>
+            </div>
+        </nav>
+    </div>
+    <div class="p-3">
+        <div class="row justify-content-center">
+            <div class="col-12 col-xl-10">
+                    <div class="card-body p-5">
+                        <form class="p-5 bg-dark" style="border-radius: 30px;">
+                            <div class="container-fluid">
+                                <div class="col-md-12">
+                                <img src="https://cdn.pixabay.com/photo/2016/04/15/18/05/computer-1331579_960_720.png" class="img-rounded float-right" width="530" height="330"></div>
+                            </div>
+                            <div class="col-md-6 col-xl-4">
+                                <h2 class="fw-bold-md-4 pb-2" style="color: white;">Iniciar sesión</h2>
+                            <div class="form-group">        
+                                <i class="fas fa-envelope p-2 " style="color: white;"></i><label class="text-white" for="email"><b>Correo Electrónico:</b></label>
+                                <input type="email" class="form-control" placeholder="Ingrese su email" id="email" required>
+                                <i class="fas fa-key p-2" style="color: white;" ></i><label class="text-white" for="pwd"><b>Contraseña:</b></label>
+                                <input type="password" class="form-control" placeholder="Ingrese contraseña" id="pwd" required>
+                            <div class="form-check">
+                                <label class="form-check-label pt-2 text-white">
+                                <input class="form-check-input" type="checkbox">Recordar contraseña
+                                </label> 
+                            </div> 
+                            </div>
+                                <div style="text-align:center;">
+                                    <button type="submit" class=" btn btn-warning" style="color: black;"><b>Ingresar</b></button>
+                                </div><br>                      
+                                <div>
+                                    <h6 class="text-white">¿Aùn no tienes cuenta?
+                                        <a href="registrar.html" class="text-warning">Crear cuenta</a></h6>
+                                </div>
+                            </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer class="bg-dark text-white py-2">
+    <div class="container" align="center">
+            <ul class="col-3 list-unstyled">
+                <li class="font-weight-bold text-uppercase">Redes sociales:</li>
+                <a href="https://www.facebook.com/" class="text-reset" target="_blank"><i class="fab fa-facebook"></i>Facebook</a>
+                <a href="https://web.whatsapp.com/" class="text-reset" target="_blank"><i class="fab fa-whatsapp"></i>Whatsapp</a>
+                <a href="https://twitter.com/" class="text-reset" target="_blank"><i class="fab fa-twitter"></i>Twitter</a>
+                <a href="https://www.instagram.com/" class="text-reset" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
+            </ul>
+    </div>   
+</footer>
+</html>
